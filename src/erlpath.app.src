@@ -1,0 +1,13 @@
+{application, erlpath,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, {e2_application, [erlpath_app]}},
+
+  {env, [{search_dirs, ["apps", "deps"]}]}
+ ]}.
