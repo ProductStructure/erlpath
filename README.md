@@ -1,4 +1,3 @@
-erlpath
-=======
 
 Erlang Path Monitor
+
